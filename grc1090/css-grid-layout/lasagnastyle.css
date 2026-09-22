@@ -1,0 +1,100 @@
+/*CSS DOCUMENT*/
+
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;} /*My edited version of the Eric Meyer’s reset tool. You may want to include this in all of your future CSS files. */
+
+img {
+    width: 100%; /*Please leave this line.*/
+     display: block;
+}
+
+div.container {
+    max-width: 80em;
+    margin: auto;
+    background-color: rgb(250, 250, 250);
+}
+
+figure {
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+}
+
+figcaption {
+    font-family: poppins, sans-serif;  
+    font-weight: 400;  
+    font-style: italic;
+    margin: 2em 1.5em;
+    line-height: 1.5;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3em;
+    margin: 3em;
+}
+
+section {
+    border-top: 2px solid rgb(229, 136, 24);
+}
+
+body {
+    background-color: rgb(221, 221, 221);
+    color: rgb(51, 51, 51);
+    line-height: 140%;
+    font-family: Sutro, serif; 
+}
+
+h1 {
+    background-color: rgb(229,136,24);
+    color: rgb(250, 250, 250);
+    padding: 1.5em 1.5em 0.3em;
+    font-size: 2em;
+    font-weight: 700;  
+    font-style: normal;
+    line-height: 1em;
+}
+
+h2 {
+    background-color: rgb(229,136,24);
+    color: rgb(246,221,189);
+    font-size: 1.5em;
+    padding: 0.5em 2em 1em; 
+    font-weight: 300;  
+    font-style: normal;
+}
+
+h3 {
+    margin: 1em 0em;
+    font-size: 1.1em;
+    color: rgb(229,136,24); 
+    font-weight: 300;  
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+ul, ol {
+    /* margin: 1em 2em 2em; */
+    font-size: 1em;
+    font-family: poppins, sans-serif;  
+    font-weight: 400;  
+    font-style: normal;
+    line-height: 2;
+    margin-bottom: 2em;
+}
+
+li {
+    margin-bottom: 0.5em;
+}
+
+footer {
+    background-color: rgb(229, 136, 24);
+    color: rgb(250, 250, 250);
+    font-family: poppins, sans-serif;  
+    font-weight: 400;  
+    font-style: normal;
+    padding: 1em 2em 1em;
+}
+
+
+/*By the way, when we use the slash-asterisk combo, it’s a comment on the CSS and it’s meant for human beings. The machine knows it is not supposed to process anything until it finds a asterisk-slash combo that ends the comment on the CSS. */
